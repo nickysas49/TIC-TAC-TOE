@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+   
+</style>
+
+<body>
+    <div class="popBox">
+        <div class="popBox-mask"></div>
+        <div class="popBox-intro">
+            <br>
+            <br>
+            <br>
+          <a>Hi, human. Would you like to play a game with me? I only take yes for an answer (=ↀωↀ=)</a>
+            <br>
+            <br>
+          <b id="start-btn">"Yes..."</b>
+        </div>
+        <div class="popBox-lose" style="display: none;">
+            <br>
+            <br>
+            <br>
+          <a>How unfortunate, loser! I will take your soul now! (=ↀωↀ=)</a>
+            <br>
+            <br>
+          <b id="restart-btn1">"NO!!!Let me try again..."</b>
+        </div>
+        <div class="popBox-win" style="display: none;">
+            <br>
+            <br>
+            <br>
+          <a>You got some luck! Here's your prize (=ↀωↀ=)</a>
+            <br>
+          <b id="restart-btn2" >"Wanna try again?"</b>
+        </div>
+        <div class="popBox-tie" style="display: none;">
+            <br>
+            <br>
+            <br>
+          <a>A tie?! What a boring game (=ↀωↀ=)</a>
+            <br>
+            <br>
+          <b id="restart-btn3">"Wanna try again?"</b>
+        </div>
+        <div class="popBox-timeout" style="display: none;">
+            <br>
+            <br>
+            <br>
+          <a>Too SLOW, loser! I will take your soul now!(=ↀωↀ=)</a>
+            <br>
+            <br>
+          <b id="restart-btn4">"Another chance...Please..."</b>
+        </div>
+    </div>
+    
+    <div class="timer" style="display: none;">9</div>
+
+    <div class = 'chessboard-background'>
+        <img src="image/backgroundbig.png" alt="">
+    </div>
+    
+    <div class="chessboard">
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+   </div>
+
+   
+    <script src="app.js"></script>
+</body>
+</html>
